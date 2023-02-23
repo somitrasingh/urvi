@@ -1,0 +1,102 @@
+body{
+    margin: 0 30px;
+}
+.urvi-heading{
+    text-align: center;
+    font-size: 30px;
+    background-color: aquamarine;
+}
+.urvi-heading .login-info{
+    position: absolute;
+    font-size: 15px;
+    left: 80%;
+    top: 5%;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+
+}
+.container{
+    width: 33%;
+}
+.container h1{
+    text-align: center;
+}
+#button-section a{
+    margin: 10px 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: aqua;
+}
+
+#product-dash, #marketing-dash, #operations-dash, #finance-dash, #tech-dash{
+    display: none;
+}
+
+form{
+    margin: 0 50px;
+   
+    padding: 20px 10px;
+    font-size: 20px;
+}
+form h1{
+    font-size: 25px;
+    margin-top: 0;
+}
+
+form input[type = "text"], form input[type = "number"], form input[type = "date"], form input[type = "file"]{
+    font-size: 20px;
+    margin: 5px 5px 10px;
+    padding: 5px 0;
+    border: 1px solid;
+    
+}
+
+form input[type = "file"]{
+    border: none;
+}
+
+form option{
+    font-size: 15px;
+}
+form select{
+    font-size: 15px;
+    max-width: 255px;
+    border: 1px solid;
+    padding: 5px 0;
+    margin: 5px 5px 10px;
+}
+
+form .button-container {
+    text-align: center;
+}
+form button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#inventory-purchase-log{
+    display: none;
+}
+
+#recipe-designing{
+    display: none;
+}
+
+#blog-writing{
+    display: none;
+}
+
+#blog-writing .itemNameList{
+    display: none;
+}
