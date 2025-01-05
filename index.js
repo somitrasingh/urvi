@@ -5,6 +5,7 @@ const marketingD = document.getElementById("marketing-dash");
 const financeD = document.getElementById("finance-dash");
 const techD = document.getElementById("tech-dash");
 
+
 function hideMainDashboard(){
     console.log(mainD);
     mainD.style.display = 'none';
